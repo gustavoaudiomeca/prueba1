@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerControllerX : MonoBehaviour
 {
-    private Rigidbody playerRb;
-    private float speed = 500;
+    private Rigidbody playerRbody;
+    float speed;
+    
     private GameObject focalPoint;
 
     public bool hasPowerup;
